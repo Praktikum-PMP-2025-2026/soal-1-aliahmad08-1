@@ -47,7 +47,7 @@ printf ("SORTED ");
 
 if (count % 2 == 0) {
     float median = 0;
-    median = (b[count / 2] + b[(count / 2) - 1]) / 2;  
+    median = (b[count / 2] + b[(count / 2) - 1]) / 2.00;  
     printf("MEDIAN %.2f ", median);
 }
 else {
